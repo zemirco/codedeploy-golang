@@ -1,3 +1,3 @@
 #!/bin/bash
 
-service codedeploy stop
+# service codedeploy stop
