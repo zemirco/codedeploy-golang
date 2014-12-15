@@ -1,0 +1,10 @@
+{
+	"ImportPath": "github.com/zemirco/codedeploy",
+	"GoVersion": "go1.4",
+	"Deps": [
+		{
+			"ImportPath": "github.com/zemirco/uid",
+			"Rev": "611112ca6d10e3e8b6328c6cef1208dfd65fa0f2"
+		}
+	]
+}
