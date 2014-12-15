@@ -22,6 +22,3 @@ echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.profile
 
 # activate changes
 source ~/.profile
-
-# install golang dependency management tool
-go get github.com/tools/godep
