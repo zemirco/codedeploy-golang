@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# set golang path for current shell and for reboot etc.
+# set golang path
 echo 'export PATH=$PATH:/home/ubuntu/go/bin' >> ~/.bashrc
 
 # make golang workspace
