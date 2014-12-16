@@ -4,13 +4,13 @@
 echo "export PATH=$PATH:/home/ubuntu/go/bin" >> ~/.bashrc
 
 # make golang workspace
-cd ~
+cd $HOME
 mkdir gocode
-echo "export GOPATH=$HOME/gocode" >> ~/.bashrc
-echo "export PATH=$PATH:$GOPATH/bin" >> ~/.bashrc
+echo "export GOPATH=$HOME/gocode" >> $HOME/.bashrc
+echo "export PATH=$PATH:$GOPATH/bin" >> $HOME/.bashrc
 
 # activate changes
-source ~/.bashrc
+source $HOME/.bashrc
 
 # install golang dependency management tool
 go get github.com/tools/godep
