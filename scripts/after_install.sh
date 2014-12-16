@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # set golang path
-echo 'export PATH=$PATH:/home/ubuntu/go/bin' >> ~/.bashrc
+echo "export PATH=$PATH:/home/ubuntu/go/bin" >> ~/.bashrc
 
 # make golang workspace
 cd ~
 mkdir gocode
-echo 'export GOPATH=$HOME/gocode' >> ~/.bashrc
-echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.bashrc
+echo "export GOPATH=$HOME/gocode" >> ~/.bashrc
+echo "export PATH=$PATH:$GOPATH/bin" >> ~/.bashrc
 
 # activate changes
 source ~/.bashrc
