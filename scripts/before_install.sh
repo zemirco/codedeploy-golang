@@ -1,10 +1,10 @@
 #!/bin/bash
 
-sudo apt-get update -y
-sudo apt-get upgrade -y
+apt-get update -y
+apt-get upgrade -y
 
 # install dependencies
-sudo apt-get install mercurial git gcc libc6-dev -y
+apt-get install mercurial git gcc libc6-dev -y
 
 # install golang
 cd /home/ubuntu
