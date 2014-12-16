@@ -4,7 +4,7 @@
 echo 'export PATH=$PATH:/home/ubuntu/go/bin' >> ~/.bashrc
 
 # make golang workspace
-cd /home/ubuntu
+cd ~
 mkdir gocode
 echo 'export GOPATH=$HOME/gocode' >> ~/.bashrc
 echo 'export PATH=$PATH:$GOPATH/bin' >> ~/.bashrc
