@@ -5,6 +5,10 @@ files:
     destination: /etc/init/
   - source: /
     destination: /home/ubuntu/gocode/src/github.com/zemirco/codedeploy
+permissions:
+  - object: /
+    pattern: "**"
+    owner: ubuntu
 hooks:
   # ApplicationStop:
   #   - location: scripts/application_stop.sh
